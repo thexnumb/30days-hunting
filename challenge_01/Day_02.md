@@ -2,3 +2,12 @@
 - work with the programs as a normal user
 - gather in scoope domains and subdomains
 - set-up burpsuite proxy in meanwhile the exploring target.
+  - burp need some configs (extentions, ssl, scope)
+  - start new project for the target
+- have some problem with go :) so fixed it.
+- still work with site as normal user, with burp proxy on and use [JSLinkFinder](https://github.com/PortSwigger/js-link-finder) extension
+- meanwhile exploring the applicaiton:
+    - in the dashboard after goes to the user profile trying to change name but some strange re-authentication (password and code that send to the user mail)
+        - trying to bypass that
+        - bypassed in the simplest way and I'll going to report it as **Improrer Authorization**
+- Enough for today :)
