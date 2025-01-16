@@ -1,0 +1,11 @@
+# Day21 `16-Jan-2025`
+- Hello everyone, on today's session, before start note that today I've been started out of the routine and maybe this affect on the process of the hunting and testing, but we have something to continue, that SSH server we found earlier day.
+- So for testing on the SSH server I do some research that to the kind of tests that we can do on a SSH server.
+  - I arrive to this [article](https://medium.com/@oumasydney2000/ssh-penetration-testing-cd6570335743) that very helpful at least in this time, now tring to do some test on that ssh server.
+  - tests:
+    - Weak credentials (or password cracking) via Hydra
+      - `hydra -L wordlists/brutespray/ssh/user -P wordlists/brutespray/ssh/password █IP█ ssh -t 2`
+      - nothing found!
+- now trying on finding other assets that even not mention, like other properties of the company.
+- after some recon arrive to another domain that is newly acquired by the main application with most stake of others, so we will trying to do something and look it is in scope or not?
+- and the loop of recon and low hanging fruits came up in here.
