@@ -1,0 +1,11 @@
+# Day23 `19-Jan-2025`
+- Hello everyone, welcome to this session, today too I've been started late think so I've stuck in a hole but it's ok.
+- Something weird happen that the application week ago were modern web app and guess it were `vue.js` but today it's on the `wordpress` cms
+- Note that earlier it's just the some particular pages were on `wordpress`
+- Let's do some checks.
+- New updated about this site that get me back, It's only and only need registration on explore on this site. so for the third time we go to hunt another program.
+- So so so new application found
+- Start again.
+    - Phase zero note down the assets and work and walk like normal user.
+    - arrive to an endpoint that is based on `wordpress` then do `dirsearch` on it.
+        - some files found but keep going.
