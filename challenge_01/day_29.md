@@ -1,0 +1,13 @@
+# Day29 `10-Feb-2025`
+- Hello there, after a long Hibernation, I'm back to complete this challenge with some modifications:
+    - First I change the platform from H1 to BugCrowd, so the program changed too.
+    - I these two left days "Just Application mapping, and Crawling Should be applied"
+- So let's go (Sorry for the failure ;] )
+- Fist read the policy of the program carefully(for the first time I'll do it)
+- Write down all in-scope assets
+- and find out Out-of-Scope assets
+- act like a normal user!
+- In meanwhile of act like normal user found a URL that is Basic Credentials, so we can do bruteforce some test done in here like:
+    -  Check for Default or Weak Credentials
+    -  Try to Bypass Authentication
+- Nothing happen. 
