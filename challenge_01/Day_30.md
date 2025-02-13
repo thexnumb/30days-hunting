@@ -12,6 +12,6 @@
     - it failed but maybe tomorrow I can deep dive in it.
 
 So after nearly 40 days for 30 days hunting challenge, today is the last day
-for the rest I record a video for this 30 days hunting challenge that what I do, after that next 30 days challenge will be start!
+for the rest I writing a blog post for this 30 days hunting challenge that what I do, after that next 30 days challenge will be start!
 
 Till then be safe!
