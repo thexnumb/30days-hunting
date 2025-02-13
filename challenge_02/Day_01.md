@@ -1,0 +1,18 @@
+# Day1 `13-Feb-2025`
+- Hello everyone welcome to the No.2 of hunting challenge on bug bounty.
+- Today is the Fourth day of my working on this target(2 last days of previous challenge is also), so I'll tell you tho whole proces of the work
+- First of all reading all the policy
+- Note down the all important things
+- Next step is to configure Burpsuite to set in-scope and out-of-scope domains and assets
+- so after doing the basics, now It's the time to kick the fire
+- do a overview of all domains in a quick way and then write down interesting assets to start from it first (write on xmind)
+- note that the program that I've choose is a Large Company with many previous Report (valid One)
+- Let's start, Act like normal user on each domains
+- Some Interesting assets found deep dive into one of them
+- Start exploring on it and Boom, First vulnerability found on the `profile User Setting` for re-bind Google token after unlink it, but Immediately accept it as `informative`
+- Another bug that found is to bypass phone number limitation, still is `pending`
+- The rest of day Let's check another subdomains to increase attack surface
+- arrive at an endpoint that struggling with account
+  -  after trying some test, arrive to blog of the application
+    -  in there we can see the blog posts and then the vote system of the blog is un-secure to vote unlimited to any post you want, this is too still is `pending`.
+-  I think it's enough for today, till tomorrow happy hacking `:)`
