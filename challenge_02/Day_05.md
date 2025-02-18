@@ -1,0 +1,13 @@
+# Day5 `18-Feb-2025`
+- Hello there, welcome to the another day of hunting challenge, today w'll be continues working on choosen target.
+- Today we work on a subdomain that is based on Wordpress
+- I'm going to test some general test-cases
+    - check the `/license.txt` for findout some information
+    - check the `/wp-activate.php` to check can we see the wordpress site creation
+    - check the `/wp-json/wp/v2/users` for get info about users
+    - check the `/wp-json/wp/v2/pages` for ip address leaks 
+    - check the `/wp-json/oembed/1.0/proxy?url=redacted.attacker.com` for if the server request to ours or not
+        - according to the [Hacktricks's wordpress penetration guide](https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/wordpress.html#:~:text=This%20is%20the%20response%20when%20it%20doesn%27t%20work%3A)
+            - we can use https://github.com/incogbyte/quickpress/tree/master
+                - command `quickpress -target https://target.com/wp-json/oembed/1.0/proxy -server https://redacted.attacker.com`
+    - 
