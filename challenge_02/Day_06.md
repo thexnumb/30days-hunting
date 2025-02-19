@@ -1,0 +1,11 @@
+# Day6 `19-Feb-2025`
+- Hello there, welcome to the another day of hunting challenge, today w'll be continues working on choosen target.
+- Let's see what we done the previous day:
+    - check the `/license.txt` for findout some information
+    - check the `/wp-activate.php` to check can we see the wordpress site creation
+    - check the `/wp-json/wp/v2/users` for get info about users
+    - check the `/wp-json/wp/v2/pages` for ip address leaks 
+    - check the `/wp-json/oembed/1.0/proxy?url=redacted.attacker.com` for if the server request to ours or not
+- Let's focus on the `/wp-json/wp/v2/users` more, trying `/wp-json/?rest_route=/wp/v2/users/` it's back `200`
+- Not all programs accept this bug but maybe it is accepcted
+- 
