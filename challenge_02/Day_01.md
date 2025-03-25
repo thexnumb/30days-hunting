@@ -1,18 +1,20 @@
-# Day1 `13-Feb-2025`
-- Hello everyone welcome to the No.2 of hunting challenge on bug bounty.
-- Today is the Fourth day of my working on this target(2 last days of previous challenge is also), so I'll tell you tho whole proces of the work
-- First of all reading all the policy
-- Note down the all important things
-- Next step is to configure Burpsuite to set in-scope and out-of-scope domains and assets
-- so after doing the basics, now It's the time to kick the fire
-- do a overview of all domains in a quick way and then write down interesting assets to start from it first (write on xmind)
-- note that the program that I've choose is a Large Company with many previous Report (valid One)
-- Let's start, Act like normal user on each domains
-- Some Interesting assets found deep dive into one of them
-- Start exploring on it and Boom, First vulnerability found on the `profile User Setting` for re-bind Google token after unlink it, but Immediately accept it as `informative`
-- Another bug that found is to bypass phone number limitation, still is `pending`
-- The rest of day Let's check another subdomains to increase attack surface
-- arrive at an endpoint that struggling with account
-  -  after trying some test, arrive to blog of the application
-    -  in there we can see the blog posts and then the vote system of the blog is un-secure to vote unlimited to any post you want, this is too still is `pending`.
--  I think it's enough for today, till tomorrow happy hacking `:)`
+# Day1 `25-Mar-2025`
+- Hello there, after near by 1.5 months, Now I'm going to continue my hunting challenge, I know that the dicipline is too hard but I've trying :)
+- Note that I've been working for 6 days but I've delete them and start again for more focus
+- So let's start!
+- focus on specific domain
+- gathered all the subdomains
+- use `dnsx` for find up or live subdomains then do service discovery for find best place to work
+- in meanwhile we can do dorking
+  - arrive to an endpoint that possible to injection trying the sqlmap for that with `python3 sqlmap.py -r r.txt --risk 3 --batch` command -> we got blocked!
+  - arrive to another endpoint that is a simple web app that maybe interesting so let's check the wayback machine
+  - trying to directory fuzz with `ffuf` so arrived to some interesting paths
+- so nothing specific found, but the recon is interesting
+- I've been arrive to an IP address so best practice??
+  - nmap is good
+- another endpoit point to a cms that interesting, so trying to directory fuzz and then arrive to the login page, and a legit url that interesting to do fuzz based on it `https://domain.tld/index.php`
+  - but nothing interesting
+- again another endpoint that is interesting
+- For tomorrow with more focus work on this specific url that can do too many works!
+
+Hope this time we don't have any break!
